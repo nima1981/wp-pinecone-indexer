@@ -10,17 +10,14 @@ Author URI: https://reza.consulting
 
 // Configuration constants (define in wp-config.php or here)
 /*
-define('PINECONE_API_KEY', ''); //from your pinecone.io account
-define('PINECONE_ENV', ''); // e.g., "us-west1-gcp"
-define('PINECONE_INDEX_NAME', ''); // the name of the index you created on your pinecone.io account
-define('HF_API_TOKEN', ''); // your huggingface api token
-define('HF_API_URL', ''); // your huggingface api url
-define('FORCE_RESET', false); // Set to true to force reset _pinecone_indexed metadata on activation/deactivation
-define('PINECONE_API_HOST', ''); // your pinecone.io api host url
+define('PINECONE_API_KEY_V3', ''); //from your pinecone.io account
+define('PINECONE_ENV_V3', ''); // e.g., "us-west1-gcp"
+define('PINECONE_INDEX_NAME_V3', ''); // the name of the index you created on your pinecone.io account
+define('HF_API_TOKEN_V3', ''); // your huggingface api token
+define('HF_API_URL_V3', ''); // your huggingface api url
+define('FORCE_RESET_V3', false); // Set to true to force reset _pinecone_indexed metadata on activation/deactivation
+define('PINECONE_API_HOST_V3', ''); // your pinecone.io api host url
 */
-
-// Pinecone custom host from dashboard
-define('PINECONE_API_HOST_V3', 'https://dissentbot-custom-384-v3-rghdik0.svc.aped-4627-b74a.pinecone.io');
 
 // Log configuration
 define('PLUGIN_LOG_DIR_V3', plugin_dir_path(__FILE__) . 'logs/');
